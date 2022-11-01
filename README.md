@@ -21,7 +21,8 @@ We went through several different ideas for data. Originally used Census data, b
 - The main objective of our unsupervised machine learning model was to find correlation between features then confirm their correlation with explained variance ratio.
 
 ### Supervised Learning
- 
+
+- We split the data into training and testing usining train test split. 
 - Using linear regression, the initial test was run with our entire dataset which has dimensions of 21613 x 21 and our initial test yielded a variance below 50%.
 - The second test the size of the feature selection was narrowed down from 21613 x 21 to 21613 x 6, by random feature selection. This random feature selection yielded a variance of 63%.
 - Eventually, we used a heatmap correlation to find the heaviest features in terms of weight on price. With the new features selected we were able to reach a variance of 86%.
