@@ -1,5 +1,7 @@
 # Final-Project
 
+## Slides
+
 ## Topic
 Our goal is to find if we can predict a home's value based on certain features.
 
