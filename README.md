@@ -19,8 +19,16 @@ We went through several different ideas for data. Originally used Census data, b
 
 ### Supervised Learning
 - We split the data into training and testing usining train test split.
-- Using linear regression, the initial test was run with our entire dataset which has dimensions of 21613 x 21 and our initial test yielded a variance below 50%.
-- The second test the size of the feature selection was narrowed down from 21613 x 21 to 21613 x 6, by random feature selection. This random feature selection yielded a variance of 63%.
+- Using linear regression, the initial test was run with our entire dataset which has dimensions of 21613 x 21 and our initial test yielded a variance 0f ~65%.
+
+<img width="290" alt="Screen Shot 2022-11-01 at 7 25 02 PM" src="https://user-images.githubusercontent.com/106006911/199366478-8a89fec0-6d79-4d30-b759-5d532c42e52e.png">
+
+
+- The second test the size of the feature selection was narrowed down from 21613 x 21 to 21613 x 6, by random feature selection. This random feature selection yielded a variance of ~54%.
+
+<img width="281" alt="Screen Shot 2022-11-01 at 7 25 16 PM" src="https://user-images.githubusercontent.com/106006911/199366581-d985dc24-7fb6-4ca1-a601-c2fac896ca48.png">
+
+
 - Eventually, we used a heatmap correlation to find the heaviest features in terms of weight on price. 
 
 <img width="324" alt="featurecoorelation" src="https://user-images.githubusercontent.com/106006911/199366225-a1e581ec-2439-4955-a6c5-8e4ee9d561db.png">
