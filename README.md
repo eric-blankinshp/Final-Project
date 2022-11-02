@@ -1,6 +1,6 @@
 # Final-Project
 
-## Slides
+## Slides https://docs.google.com/presentation/d/12sqbnzH5KZyljp_qEkTRjAhgdXWHzRi8D435oBrMoss/edit?usp=sharing
 
 ## Topic
 Our goal is to find if we can predict a home's value based on certain features.
@@ -13,7 +13,7 @@ We want to find what features of a home have the most impact on the price, and t
 ## Data Exploration
 We went through several different ideas for data. Originally used Census data, but found it difficult to find what we were looking for. After a time, we found a good csv file for homes in Kansas City. We felt there was plenty of homes in the csv to help us make predictions with machine learning. After adding it to a map in Tableau, we found that the homes were actually in Seattle, Washington. Looking more closely, we found that home prices matched the Seattle area more than Kansas City. We felt we could still use it, that it was just mislabled.
 
-## Description of data preprocessing
+## Description of data processing
 
 ### Unsupervised Learning
 - The first objective is to read and clean the data. The two things that need to happen when it comes to running an unsupervised learning model is there shouldn't be and nan's and each value type needs to be in number format. Luckily for us, our data set had 0 null values and only one column that wasn't a numerical data type. For additional data cleaning we deleted a few duplicate rows.
@@ -39,6 +39,8 @@ We went through several different ideas for data. Originally used Census data, b
 - With the new features selected we were able to reach a variance of ~77%.
 
 ![image](https://user-images.githubusercontent.com/106006911/199365939-a1381b82-55ef-4996-bdfe-fff1131abcfb.png)
+
+We created an AWS instance titled "final-project" in RDS console. Next created a jupyter notebook file in which we imported our data as a csv. After making sure the data was clean, we then used sql alchemy to send the dataframe to our AWS instance in pgAdmin.
 
 
 ## Recommendation for future analysis
