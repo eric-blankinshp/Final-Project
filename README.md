@@ -21,7 +21,10 @@ We went through several different ideas for data. Originally used Census data, b
 - We split the data into training and testing usining train test split.
 - Using linear regression, the initial test was run with our entire dataset which has dimensions of 21613 x 21 and our initial test yielded a variance below 50%.
 - The second test the size of the feature selection was narrowed down from 21613 x 21 to 21613 x 6, by random feature selection. This random feature selection yielded a variance of 63%.
-- Eventually, we used a heatmap correlation to find the heaviest features in terms of weight on price. With the new features selected we were able to reach a variance of 86%.
+- Eventually, we used a heatmap correlation to find the heaviest features in terms of weight on price. 
+- With the new features selected we were able to reach a variance of ~77%.
+![image](https://user-images.githubusercontent.com/106006911/199365939-a1381b82-55ef-4996-bdfe-fff1131abcfb.png)
+
 
 ## Recommendation for future analysis
 We think that in future analysis, it would be helpful to see how other factors affect home values. Originaly, we wanted to see how things like crime, school ratings, unemployment rate, and other non-physical attributes affect the value. We had a tough time finding good data for these things, but with more time, think it would helpful to add to our original findings.
