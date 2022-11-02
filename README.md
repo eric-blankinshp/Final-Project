@@ -20,7 +20,8 @@ We went through several different ideas for data. Originally used Census data, b
 - The main objective of our unsupervised machine learning model was to find correlation between features then confirm their correlation with explained variance ratio.
 
 ### Supervised Learning
-- We split the data into training and testing usining train test split.
+
+- We split the data into training and testing using train test split.
 - Using linear regression, the initial test was run with our entire dataset which has dimensions of 21613 x 21 and our initial test yielded a variance 0f ~65%.
 
 <img width="290" alt="Screen Shot 2022-11-01 at 7 25 02 PM" src="https://user-images.githubusercontent.com/106006911/199366478-8a89fec0-6d79-4d30-b759-5d532c42e52e.png">
@@ -44,6 +45,6 @@ We created an AWS instance titled "final-project" in RDS console. Next created a
 
 
 ## Recommendation for future analysis
-We think that in future analysis, it would be helpful to see how other factors affect home values. Originaly, we wanted to see how things like crime, school ratings, unemployment rate, and other non-physical attributes affect the value. We had a tough time finding good data for these things, but with more time, think it would helpful to add to our original findings.
+We think that in future analysis, it would be helpful to see how other factors affect home values. Originally, we wanted to see how things like crime, school ratings, unemployment rate, and other non-physical attributes affect the value. We had a tough time finding good data for these things, but with more time, think it would helpful to add to our original findings.
 
 ## What we would have done differently
