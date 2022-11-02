@@ -22,6 +22,10 @@ We went through several different ideas for data. Originally used Census data, b
 - Using linear regression, the initial test was run with our entire dataset which has dimensions of 21613 x 21 and our initial test yielded a variance below 50%.
 - The second test the size of the feature selection was narrowed down from 21613 x 21 to 21613 x 6, by random feature selection. This random feature selection yielded a variance of 63%.
 - Eventually, we used a heatmap correlation to find the heaviest features in terms of weight on price. 
+
+<img width="324" alt="featurecoorelation" src="https://user-images.githubusercontent.com/106006911/199366225-a1e581ec-2439-4955-a6c5-8e4ee9d561db.png">
+
+
 - With the new features selected we were able to reach a variance of ~77%.
 
 ![image](https://user-images.githubusercontent.com/106006911/199365939-a1381b82-55ef-4996-bdfe-fff1131abcfb.png)
