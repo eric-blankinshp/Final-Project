@@ -41,6 +41,9 @@ We went through several different ideas for data. Originally used Census data, b
 
 ![image](https://user-images.githubusercontent.com/106006911/199365939-a1381b82-55ef-4996-bdfe-fff1131abcfb.png)
 
+
+### Database Connection
+
 We created an AWS instance titled "final-project" in RDS console. Next created a jupyter notebook file in which we imported our data as a csv. After making sure the data was clean, we then used sql alchemy to send the dataframe to our AWS instance in pgAdmin.
 
 
