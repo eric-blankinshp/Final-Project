@@ -1,5 +1,8 @@
 # Final-Project
 
+##Tableau
+https://public.tableau.com/app/profile/eric.blankinship/viz/HousingDataProject/Story1?publish=yes
+
 ## Slides https://docs.google.com/presentation/d/12sqbnzH5KZyljp_qEkTRjAhgdXWHzRi8D435oBrMoss/edit?usp=sharing
 
 ## Topic
