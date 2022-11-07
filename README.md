@@ -27,7 +27,7 @@ We went through several different ideas for data. Originally used Census data, b
 ### Supervised Learning
 
 - We split the data into training and testing using train test split.
-- Using linear regression, the initial test was run with our entire dataset which has dimensions of 8250 x 20 and our initial test yielded a r-squared value 0f ~75%.
+- Using linear regression, the initial test was run with our entire dataset which has dimensions of 8250 x 20 and our initial test yielded a r-squared value of ~75%.
 
  <img width="293" alt="Screen Shot 2022-11-07 at 10 51 25 AM" src="https://user-images.githubusercontent.com/106006911/200368819-2019dd2e-8616-495f-89e7-ab82e609b7ff.png">
 
@@ -50,7 +50,7 @@ We went through several different ideas for data. Originally used Census data, b
 
 ### Database Connection
 
-We created an AWS instance titled "final-project" in RDS console. Next created a jupyter notebook file in which we imported our data as a csv. After making sure the data was clean, we then used sql alchemy to send the dataframe to our AWS instance in pgAdmin.
+We created an AWS instance titled "final-project" in RDS console. Next, we created a jupyter notebook file in which we imported our data as a csv. After making sure the data was clean, we then used sql alchemy to send the dataframe to our AWS instance in pgAdmin.
 
 
 ## Recommendation for future analysis
