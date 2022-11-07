@@ -19,9 +19,10 @@ We went through several different ideas for data. Originally used Census data, b
 
 ## Description of data processing
 
-### Unsupervised Learning
-- The first objective is to read and clean the data. The two things that need to happen when it comes to running an unsupervised learning model is there shouldn't be and nan's and each value type needs to be in number format. Luckily for us, our data set had 0 null values and only one column that wasn't a numerical data type. For additional data cleaning we deleted a few duplicate rows.
-- The main objective of our unsupervised machine learning model was to find correlation between features then confirm their correlation with explained variance ratio.
+### Data Cleaning
+- The first objective is to read and clean the data. The two things that need to happen when it comes to running a supervised learning model is there shouldn't be and nan's and each value type needs to be in number format. 
+- We decided the two rows that were not in number format were unnecessary for our project, so they were dropped.
+- After merging with an inner join, all nan's were dropped, but we ran a drop nan's code just incase.
 
 ### Supervised Learning
 
