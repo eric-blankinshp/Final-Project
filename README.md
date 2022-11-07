@@ -9,7 +9,7 @@ https://public.tableau.com/app/profile/eric.blankinship/viz/HousingDataProject/S
 Our goal is to find if we can predict a home's value based on certain features.
 
 ## Source of Data
-We got our data in two csv's from Kaggle.
+We obtained our data in two csv's from Kaggle.
 
 ## Questions we want to answer
 We want to find what features of a home have the most impact on the price, and then find if price can be predicted.
