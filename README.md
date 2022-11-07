@@ -9,6 +9,7 @@ https://public.tableau.com/app/profile/eric.blankinship/viz/HousingDataProject/S
 Our goal is to find if we can predict a home's value based on certain features.
 
 ## Source of Data
+We got our data in two csv's from Kaggle.
 
 ## Questions we want to answer
 We want to find what features of a home have the most impact on the price, and then find if price can be predicted.
@@ -25,14 +26,14 @@ We went through several different ideas for data. Originally used Census data, b
 ### Supervised Learning
 
 - We split the data into training and testing using train test split.
-- Using linear regression, the initial test was run with our entire dataset which has dimensions of 21613 x 21 and our initial test yielded a variance 0f ~65%.
+- Using linear regression, the initial test was run with our entire dataset which has dimensions of 8250 x 16 and our initial test yielded a r-squared value 0f ~71%.
 
-<img width="290" alt="Screen Shot 2022-11-01 at 7 25 02 PM" src="https://user-images.githubusercontent.com/106006911/199366478-8a89fec0-6d79-4d30-b759-5d532c42e52e.png">
+<img width="292" alt="Screen Shot 2022-11-07 at 10 31 09 AM" src="https://user-images.githubusercontent.com/106006911/200364077-8fefdc20-2be9-48a9-96cd-792ab7a029bf.png">
 
 
-- The second test the size of the feature selection was narrowed down from 21613 x 21 to 21613 x 6, by random feature selection. This random feature selection yielded a variance of ~54%.
+- The second test the size of the feature selection was narrowed down from 8250 x 16 to 8250 x 6, by random feature selection. This random feature selection yielded a R-squared value of ~65%.
 
-<img width="281" alt="Screen Shot 2022-11-01 at 7 25 16 PM" src="https://user-images.githubusercontent.com/106006911/199366581-d985dc24-7fb6-4ca1-a601-c2fac896ca48.png">
+<img width="303" alt="Screen Shot 2022-11-07 at 10 30 55 AM" src="https://user-images.githubusercontent.com/106006911/200364384-df6e5200-cbe9-4255-875e-64d157ed5549.png">
 
 
 - Eventually, we used a heatmap correlation to find the heaviest features in terms of weight on price. 
