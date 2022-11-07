@@ -15,7 +15,7 @@ We obtained our data in two csv's from Kaggle.
 We want to find what features of a home have the most impact on the price, and then find if price can be predicted.
 
 ## Data Exploration
-We went through several different ideas for data. Originally used Census data, but found it difficult to find what we were looking for. After a time, we found a good csv file for homes in Kansas City. We felt there was plenty of homes in the csv to help us make predictions with machine learning. After adding it to a map in Tableau, we found that the homes were actually in Seattle, Washington. Looking more closely, we found that home prices matched the Seattle area more than Kansas City. We felt we could still use it, that it was just mislabled. We also found a property crime data file for Seattle to add another demention for our project.
+We went through several different ideas for data. Originally used Census data, but found it difficult to find what we were looking for. After a time, we found a good csv file for homes in Kansas City. We felt there was plenty of homes in the csv to help us make predictions with machine learning. After adding it to a map in Tableau, we found that the homes were actually in Seattle, Washington. Looking more closely, we found that home prices matched the Seattle area more than Kansas City. We felt we could still use it, that it was just mislabled. We also found a property crime data file for Seattle to add another dimension for our project.
 
 ## Description of data processing
 
