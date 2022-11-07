@@ -15,7 +15,7 @@ We obtained our data in two csv's from Kaggle.
 We want to find what features of a home have the most impact on the price, and then find if price can be predicted.
 
 ## Data Exploration
-We went through several different ideas for data. Originally used Census data, but found it difficult to find what we were looking for. After a time, we found a good csv file for homes in Kansas City. We felt there was plenty of homes in the csv to help us make predictions with machine learning. After adding it to a map in Tableau, we found that the homes were actually in Seattle, Washington. Looking more closely, we found that home prices matched the Seattle area more than Kansas City. We felt we could still use it, that it was just mislabled.
+We went through several different ideas for data. Originally used Census data, but found it difficult to find what we were looking for. After a time, we found a good csv file for homes in Kansas City. We felt there was plenty of homes in the csv to help us make predictions with machine learning. After adding it to a map in Tableau, we found that the homes were actually in Seattle, Washington. Looking more closely, we found that home prices matched the Seattle area more than Kansas City. We felt we could still use it, that it was just mislabled. We also found a property crime data file for Seattle to add another demention for our project.
 
 ## Description of data processing
 
@@ -26,12 +26,13 @@ We went through several different ideas for data. Originally used Census data, b
 ### Supervised Learning
 
 - We split the data into training and testing using train test split.
-- Using linear regression, the initial test was run with our entire dataset which has dimensions of 8250 x 16 and our initial test yielded a r-squared value 0f ~71%.
+- Using linear regression, the initial test was run with our entire dataset which has dimensions of 8250 x 20 and our initial test yielded a r-squared value 0f ~75%.
 
-<img width="292" alt="Screen Shot 2022-11-07 at 10 31 09 AM" src="https://user-images.githubusercontent.com/106006911/200364077-8fefdc20-2be9-48a9-96cd-792ab7a029bf.png">
+ <img width="293" alt="Screen Shot 2022-11-07 at 10 51 25 AM" src="https://user-images.githubusercontent.com/106006911/200368819-2019dd2e-8616-495f-89e7-ab82e609b7ff.png">
 
 
 - The second test the size of the feature selection was narrowed down from 8250 x 16 to 8250 x 6, by random feature selection. This random feature selection yielded a R-squared value of ~65%.
+.
 
 <img width="303" alt="Screen Shot 2022-11-07 at 10 30 55 AM" src="https://user-images.githubusercontent.com/106006911/200364384-df6e5200-cbe9-4255-875e-64d157ed5549.png">
 
