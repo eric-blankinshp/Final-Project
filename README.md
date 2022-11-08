@@ -40,12 +40,15 @@ We went through several different ideas for data. Originally used Census data, b
 
 - Eventually, we used a heatmap correlation to find the heaviest features in terms of weight on price. 
 
-<img width="324" alt="featurecoorelation" src="https://user-images.githubusercontent.com/106006911/199366225-a1e581ec-2439-4955-a6c5-8e4ee9d561db.png">
+<img width="413" alt="Screen Shot 2022-11-08 at 11 24 02 AM" src="https://user-images.githubusercontent.com/106006911/200633537-0b8bd942-799d-4004-89e7-cedea21043b5.png">
 
 
-- With the new features selected we were able to reach a variance of ~77%.
+<img width="494" alt="Screen Shot 2022-11-08 at 11 24 14 AM" src="https://user-images.githubusercontent.com/106006911/200633795-259e2f6d-25b0-4df5-b855-f06359df43e6.png">
 
-![image](https://user-images.githubusercontent.com/106006911/199365939-a1381b82-55ef-4996-bdfe-fff1131abcfb.png)
+
+- With the new features selected we were able to reach a variance of ~65%.
+
+<img width="303" alt="Screen Shot 2022-11-07 at 10 30 55 AM" src="https://user-images.githubusercontent.com/106006911/200633896-787eb178-002f-4697-92c1-990e5f9d0eee.png">
 
 
 ### Database Connection
