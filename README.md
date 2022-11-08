@@ -60,3 +60,5 @@ We created an AWS instance titled "final-project" in RDS console. Next, we creat
 We think that in future analysis, it would be helpful to see how other factors affect home values. Originally, we wanted to see how things like crime, school ratings, unemployment rate, and other non-physical attributes affect the value. We had a tough time finding good data for these things, but with more time, think it would helpful to add to our original findings.
 
 ## What we would have done differently
+
+The main thing we would have done differently would  be with our data collection. We would have stuck with our original plan and gotten help finding appropriate data. If we had more experience finding data, we think our original plan would have produced better results.
