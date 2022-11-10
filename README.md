@@ -9,7 +9,7 @@ https://public.tableau.com/app/profile/eric.blankinship/viz/HousingDataProject/S
 Our goal is to find if we can predict a home's value based on certain features.
 
 ## Source of Data
-We obtained our data in two csv's from Kaggle.
+We obtained our data in two csv's from Kaggle. https://www.kaggle.com/datasets/shivachandel/kc-house-data
 
 ## Questions we want to answer
 We want to find what features of a home have the most impact on the price, and then find if price can be predicted.
@@ -40,12 +40,15 @@ We went through several different ideas for data. Originally used Census data, b
 
 - Eventually, we used a heatmap correlation to find the heaviest features in terms of weight on price. 
 
-<img width="324" alt="featurecoorelation" src="https://user-images.githubusercontent.com/106006911/199366225-a1e581ec-2439-4955-a6c5-8e4ee9d561db.png">
+<img width="413" alt="Screen Shot 2022-11-08 at 11 24 02 AM" src="https://user-images.githubusercontent.com/106006911/200633537-0b8bd942-799d-4004-89e7-cedea21043b5.png">
 
 
-- With the new features selected we were able to reach a variance of ~77%.
+<img width="494" alt="Screen Shot 2022-11-08 at 11 24 14 AM" src="https://user-images.githubusercontent.com/106006911/200633795-259e2f6d-25b0-4df5-b855-f06359df43e6.png">
 
-![image](https://user-images.githubusercontent.com/106006911/199365939-a1381b82-55ef-4996-bdfe-fff1131abcfb.png)
+
+- With the new features selected we were able to reach a variance of ~65%.
+
+<img width="303" alt="Screen Shot 2022-11-07 at 10 30 55 AM" src="https://user-images.githubusercontent.com/106006911/200633896-787eb178-002f-4697-92c1-990e5f9d0eee.png">
 
 
 ### Database Connection
@@ -57,3 +60,5 @@ We created an AWS instance titled "final-project" in RDS console. Next, we creat
 We think that in future analysis, it would be helpful to see how other factors affect home values. Originally, we wanted to see how things like crime, school ratings, unemployment rate, and other non-physical attributes affect the value. We had a tough time finding good data for these things, but with more time, think it would helpful to add to our original findings.
 
 ## What we would have done differently
+
+The main thing we would have done differently would  be with our data collection. We would have stuck with our original plan and gotten help finding appropriate data. If we had more experience finding data, we think our original plan would have produced better results.
