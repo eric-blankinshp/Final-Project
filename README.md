@@ -9,8 +9,12 @@ https://public.tableau.com/app/profile/eric.blankinship/viz/HousingDataProject/S
 Our goal is to find if we can predict a home's value based on certain features.
 
 ## Source of Data
-We obtained our data in two csv's from Kaggle. https://www.kaggle.com/datasets/shivachandel/kc-house-data
+We obtained our data in two csv's from Kaggle. 
+- KC House Data: https://www.kaggle.com/datasets/shivachandel/kc-house-data
+This included our physical attributes to homes. Including things like number of bedrooms, bathrooms, and square footage along with price. The data file is titled Kansas City house data, but was actually Seattle.
 
+- Seattle crime data: https://www.kaggle.com/datasets/danielvl/seattle-property-crime-by-zip-code-20082021
+This includes the crime rates per 1,000 population by zipcodes.
 ## Questions we want to answer
 We want to find what features of a home have the most impact on the price, and then find if price can be predicted.
 
